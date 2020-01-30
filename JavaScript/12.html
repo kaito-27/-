@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="timer"></h1>
+
+    <script>
+        var zeroPadding = function (num) {
+            if (num < 10) {
+                num = '0' + num;
+                return num;
+            } else {
+                return num;
+            }
+        };
+
+        var time = function () {
+            var now = new Date();
+            var hours = now.getHours();
+            hours = zeroPadding(hours);
+
+            var minutes = now.getMinutes();
+            minutes = zeroPadding(minutes);
+
+            var seconds = now.getSeconds();
+            seconds = zeroPadding(seconds);
+            document.getElementById("timer").innerHTML = hours + ":" + minutes + ":" + seconds;
+        };
+
+
+        setInterval(time);
+
+
+    </script>
+</body>
+
+</html>

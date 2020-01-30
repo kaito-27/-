@@ -1,0 +1,22 @@
+div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+
+.square {
+    width: 200px;
+    height: 255px;
+    background: linear-gradient(#F89174, #FFC778);
+    
+}
+
+.square2 {
+    width: 100px;
+    height: 75px;
+    background: linear-gradient(#fff, #000)
+}

@@ -1,0 +1,4 @@
+padding/margin
+・要素の周りにはborderがあり、その内側の余白がpadding、
+　borderの外側の余白がmarginという。
+　

@@ -1,0 +1,3 @@
+num=1の値の書式を2桁にしたい場合
+var num = 1;
+var ret = ( '00' + num ).slice( -2 );

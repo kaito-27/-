@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var val1 = "globalなval1です。";
+
+        var func1 = function () {
+            var val2 = "localなval2です。";
+            console.log(val1);
+            console.log(val2);
+        }
+
+        var func2 = function () {
+            console.log(val2);
+            for (let i = 0; i < 5; i++) {
+                console.log(i);
+            }
+            console.log(i);
+        }
+
+        var func3 = function () {
+            const val3 = "定数です。";
+            val3 = "やっぱり気分が変わりました。";
+        }
+
+        func1();
+        func2();
+        func3();
+    </script>
+
+</body>
+
+</html>

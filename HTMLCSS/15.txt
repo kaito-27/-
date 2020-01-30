@@ -1,0 +1,7 @@
+CSSのセレクタ
+・a
+・#iddres
+・.container
+・a:hover
+・header,footer
+・.content h1
