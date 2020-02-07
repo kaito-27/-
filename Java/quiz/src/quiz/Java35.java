@@ -6,16 +6,17 @@ public class Java35 {
 		int customerKbnInnerCode = 7528;
 		getCustomerCode(customerKbnCode, customerKbnInnerCode);
 
-
+		System.out.println(getCustomerCode(customerKbnCode, customerKbnInnerCode));
 	}
 
 	public static int getCustomerCode(int customerKbnCode, int customerKbnInnerCode){
 		String str = String.valueOf(customerKbnCode);
 		String str2 = String.valueOf(customerKbnInnerCode);
 
-		System.out.println(str + str2);
+		String CustomerCode = str + str2;
+		int num = Integer.parseInt(CustomerCode);
 
-		return customerKbnCode + customerKbnInnerCode;
+		return num;
 	}
 
 }

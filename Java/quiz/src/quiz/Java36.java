@@ -5,16 +5,15 @@ public class Java36 {
 		int hour = 10;
 		int minute = 40;
 		zikan(hour, minute);
+		System.out.println(zikan(hour, minute));
 	}
 
 	public static String zikan(int hour, int minute) {
 
 		if(hour<24 && minute<60) {
-			System.out.println(hour + ":" + minute);
 			return hour + ":" + minute;
 
 		}else {
-			System.out.println("エラー");
 			return "エラー";
 
 		}
