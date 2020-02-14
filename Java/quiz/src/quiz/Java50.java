@@ -1,16 +1,20 @@
 package quiz;
 
-public class Java45 {
-	public static void main(String[] args) {
-		Human45 human = new Human45();
-		human.setName("福田魁斗");
-		human.setAge(21);
-	}
+public class Java50 {
+
 }
 
-class Human45{
-    private String name;
-    private int age;
+class Human50{
+	private String name;
+    private int age = 0;
+
+    public Human50(String name, int age) {
+    	this.name = name;
+    	this.age = age;
+    }
+    public Human50(String name) {
+    	this.name = name;
+    }
 
     public void setName(String name){
         this.name = name;

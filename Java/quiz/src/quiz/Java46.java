@@ -1,31 +1,35 @@
 package quiz;
 
 public class Java46 {
-	private long number = 0;
-	private String name= null;
-	private int age = 0;
 
-	public void setNumber(long number) {
-		this.number = number;
+}
+
+class Account{
+	private long num;
+	private String name;
+	private int age;
+
+
+	public long getNum() {
+		return num;
 	}
-
-	public long getNumber() {
-		return number;
-	}
-
-	public void setName(String name) {
-		this.name = name;
+	public void setNum(long num) {
+		this.num = num;
 	}
 
 	public String getName() {
 		return name;
 	}
-
-	public void setAge(int age) {
-		this.age = age;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public int getAge() {
 		return age;
 	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+
 }

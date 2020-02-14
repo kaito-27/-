@@ -5,13 +5,13 @@ import java.time.format.DateTimeFormatter;
 
 public class Java72 {
 	public static void main(String[] args) {
-		LocalDateTime LDT = LocalDateTime.now();
+		LocalDateTime ldt = LocalDateTime.now();
 
 
 		DateTimeFormatter datetimeformatter = DateTimeFormatter.ofPattern("yyyy/M/d(E)");
 
 
-		String datetimeformated = datetimeformatter.format(LDT);
+		String datetimeformated = datetimeformatter.format(ldt);
 
 		System.out.println(datetimeformated);
 	}

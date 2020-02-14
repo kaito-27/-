@@ -1,11 +1,12 @@
 package quiz;
 
-class Human{
-    private String name = null;
-    private int age = 0;
+public class Java49 {
 
-    public Human(String name, int age) {}
-    public Human(String name) {}
+}
+
+class Human49{
+	private String name;
+	private int age;
 
     public void setName(String name){
         this.name = name;
@@ -21,5 +22,10 @@ class Human{
 
     public int getAge(){
         return age;
+    }
+    
+    public Human49(String name, int age) {
+    	this.name = name;
+    	this.age = age;
     }
 }
