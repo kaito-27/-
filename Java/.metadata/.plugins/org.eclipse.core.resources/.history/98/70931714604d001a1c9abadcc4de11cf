@@ -1,0 +1,18 @@
+package quiz;
+
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class Java72 {
+	public static void main(String[] args) {
+		System.out.println(toStr(LocalDateTime.now(), "yyyy/MM/dd"));
+	}
+
+	public static String toStr(LocalDateTime localDateTime, String format) {
+
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern(format);
+        return localDateTime.format(dateTimeFormatter);
+
+    }
+
+}

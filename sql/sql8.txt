@@ -1,0 +1,11 @@
+SELECT workname, volume
+FROM doujo.manga_tbl
+WHERE workname = 'NARUTO'
+
+SELECT name, hometown
+FROM doujo.artist_tbl
+WHERE name = '荒木飛呂彦'
+
+SELECT workname, serialize_from, serialize_to
+FROM doujo.manga_tbl
+WHERE workname = '黒子のバスケ'

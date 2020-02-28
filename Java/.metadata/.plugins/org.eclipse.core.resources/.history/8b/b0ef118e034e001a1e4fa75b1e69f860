@@ -1,0 +1,17 @@
+package quiz;
+
+public class Java81 {
+	public static void main(String[] args) {
+		String[] stations = new String[5];
+
+		stations[0] = "富山トヨペット本社前（五福末広町）";
+		stations[1] = "リゾートゲートウェイ･ステーション";
+		stations[2] = "東京ディズニーランド･ステーション";
+		stations[3] = "東京ディズニーシー･ステーション";
+		stations[4] = "ジヤトコ前(ジヤトコ1地区前)";
+
+		for(String station : stations){
+		    System.out.println(String.format("%s駅は%d文字です", station, station.length() ));
+		}
+	}
+}

@@ -3,25 +3,26 @@ package quiz;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Java59 {
 	public static void main(String[] args) {
-		ArrayList<String> arashi = new ArrayList<String>();
+		List<String> arashi = new ArrayList<String>();
 		arashi.add("相葉雅紀");
 		arashi.add("松本潤");
 		arashi.add("二宮和也");
 		arashi.add("大野智");
 		arashi.add("櫻井翔");
 
-		ArrayList<String> smap = new ArrayList<String>();
+		List<String> smap = new ArrayList<String>();
 		smap.add("中居正広");
 		smap.add("草彅剛");
 		smap.add("木村拓哉");
 		smap.add("香取慎吾");
 		smap.add("稲垣吾郎");
 
-		ArrayList<String> tokio = new  ArrayList<String>();
+		List<String> tokio = new  ArrayList<String>();
 		tokio.add("国分太一");
 		tokio.add("城島茂");
 		tokio.add("松岡昌宏");

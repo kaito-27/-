@@ -1,0 +1,24 @@
+package quiz;
+
+public class Java86 {
+	public static void main(String[] args) throws Exception {
+        Parent p = new Child();
+        p.bar();
+    }
+}
+
+class Child extends Parent{
+    public void foo(){
+        System.out.println("ChildFoo");
+    }
+
+    public void bar(){
+        System.out.println("ChildBar");
+    }
+}
+
+class Parent{
+    public void foo(){
+        System.out.println("ParentFoo");
+    }
+}

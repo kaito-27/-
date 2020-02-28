@@ -3,6 +3,8 @@ package quiz;
 import java.util.Random;
 public class Java11 {
 	public static void main(String[] args) {
+		int i = 0;
+		System.out.println(i++);
 		Random rand = new Random();
 		int num= rand.nextInt(4) + 1;
 

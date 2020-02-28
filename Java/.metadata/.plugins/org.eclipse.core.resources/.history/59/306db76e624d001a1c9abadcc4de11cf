@@ -1,0 +1,14 @@
+package quiz;
+
+public class Java75 {
+	public static void main(String[] args) throws Exception {
+        Human2 human = new Human2();
+        human.run(); // Humanではなくhumanを呼び出した。
+    }
+}
+
+class Human2{
+    public void run(){
+        System.out.println("走る");
+    }
+}

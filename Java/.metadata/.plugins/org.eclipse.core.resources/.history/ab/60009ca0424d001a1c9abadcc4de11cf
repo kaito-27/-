@@ -1,0 +1,14 @@
+package quiz;
+
+import java.time.LocalDate;
+
+public class Java70 {
+	public static void main (String[] args) {
+		String name = "福田魁斗";
+		LocalDate birthday = LocalDate.of(1998, 2, 27);
+	}
+	
+	public static String uranai(String name, LocalDate birthday){
+		
+	}
+}

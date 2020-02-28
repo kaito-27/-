@@ -1,0 +1,16 @@
+package quiz;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Java71 {
+	public static void main(String[] args) {
+		 String dateStr = "20140101 00:00:00";
+
+	        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd HH:mm:ss");
+
+	        // Date型変換
+	        Date formatDate = sdf.parse(dateStr);
+
+	}
+}

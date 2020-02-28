@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runner version="1.0.0">
+<category expanded="true" name="カテゴリーなし">
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Java1"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Java10"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Java10 (1)"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Java11"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Java14"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Java15"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Java16"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Java17"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Java18"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Java19"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Java2"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Java20"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Java22"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Java3"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Java4"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Java5"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Java6"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Java7"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="Java9"/>
+<launchConfiguration bookmark="false" defaultLaunchMode="run" name="java8"/>
+</category>
+</runner>

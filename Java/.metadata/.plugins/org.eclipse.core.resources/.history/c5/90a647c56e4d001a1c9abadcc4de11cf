@@ -1,0 +1,19 @@
+package quiz;
+
+public class Java78 extends Human78 {
+	public void sleep() {
+		System.out.println("寝る");
+	}
+	public void fly() {
+		System.out.println("飛ぶ");
+	}
+	public void run() {
+		System.out.println("めっちゃ速く走る");
+	}
+}
+
+class Human78{
+    public void run(){
+        System.out.println("走る");
+    }
+}

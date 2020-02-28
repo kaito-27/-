@@ -1,0 +1,19 @@
+package quiz;
+
+public class Java67 {
+	 public static void main(String[] args){
+
+		 System.out.println(divide(2, 0));
+	    }
+
+	public static double divide(int a, int b){
+
+		try {
+			double ans = a / b;
+			return ans;
+		}
+		catch(ArithmeticException e) {
+			return 0;
+		}
+    }
+}
