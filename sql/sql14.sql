@@ -1,3 +1,3 @@
-SELECT name, age
-FROM doujo.artist_tbl
+SELECT name –¼‘O
+FROM artist_tbl
 WHERE age < 0

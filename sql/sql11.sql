@@ -1,3 +1,3 @@
-SELECT workname, serialize_from, serialize_to, serialize_to - serialize_from AS year
-FROM doujo.manga_tbl
+SELECT workname ì•i–¼, serialize_to - serialize_from ˜AÚ”N”
+FROM manga_tbl
 WHERE serialize_to - serialize_from >= 15

@@ -1,0 +1,5 @@
+SELECT SUM(circulation) î≠çsïîêî, name èoî≈é–
+FROM manga_tbl m
+LEFT JOIN company_tbl c ON m.company_id = c.id
+GROUP BY m.company_id
+

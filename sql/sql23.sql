@@ -1,6 +1,6 @@
-SELECT name, SUM(circulation)
-FROM doujo.manga_tbl
-LEFT JOIN doujo.artist_tbl ON doujo.manga_tbl.artist_id = doujo.artist_tbl.id
-GROUP BY doujo.manga_tbl.artist_id
+SELECT name, SUM(circulation) î≠çsïîêî
+FROM manga_tbl m
+LEFT JOIN artist_tbl a ON m.artist_id = a.id
+GROUP BY name
 ORDER BY SUM(circulation) desc
 

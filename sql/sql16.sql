@@ -1,3 +1,3 @@
 SELECT workname
-FROM doujo.manga_tbl
+FROM manga_tbl
 WHERE workname LIKE '%‚±‚¿%‹T%'

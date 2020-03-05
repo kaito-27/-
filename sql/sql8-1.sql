@@ -1,3 +1,3 @@
 SELECT workname ì•i–¼, volume Šª”
 FROM manga_tbl
-WHERE volume > 100
+WHERE workname = 'NARUTO -ƒiƒ‹ƒg-'

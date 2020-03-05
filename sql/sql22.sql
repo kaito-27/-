@@ -1,7 +1,5 @@
-SELECT name, count(*)
-FROM doujo.manga_tbl 
-LEFT JOIN doujo.artist_tbl ON doujo.artist_tbl.id = doujo.manga_tbl.artist_id
-GROUP BY artist_id
+SELECT name –¼‘O, COUNT(*) ‰ñ”
+FROM manga_tbl m
+LEFT JOIN artist_tbl a ON m.artist_id = a.id
+GROUP BY a.id
 HAVING COUNT(*) >= 2
-
-

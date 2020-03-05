@@ -1,3 +1,4 @@
-SELECT workname, artist_tbl.name, company_tbl.name AS company
-FROM doujo.manga_tbl LEFT JOIN doujo.artist_tbl ON doujo.manga_tbl.id = doujo.artist_tbl.id
-LEFT JOIN doujo.company_tbl ON doujo.company_tbl.id = doujo.manga_tbl.id
+SELECT m.workname タイトル, a.name 作者名, c.name 出版社名
+FROM manga_tbl m
+LEFT JOIN artist_tbl a ON m.artist_id = a.id
+LEFT JOIN company_tbl c ON m.company_id = c.id

@@ -1,0 +1,4 @@
+SELECT t.type_name éÌï , COUNT(type_id) ìoò^êî
+FROM brands b
+LEFT JOIN bevarage_types t ON b.type_id = t.id
+GROUP BY t.id
