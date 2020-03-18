@@ -10,7 +10,7 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            bool existsValue = false;
+            bool existsValue = true;
 
             if (existsValue)
             {

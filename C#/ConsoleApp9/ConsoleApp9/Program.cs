@@ -10,7 +10,7 @@ namespace ConsoleApp9
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Kaibun("よのなかねかおかおかねかなのよ"));
+            Console.WriteLine(Kaibun("たしかにこのやおやのこにかした"));
         }
 
         static bool Kaibun(string str)

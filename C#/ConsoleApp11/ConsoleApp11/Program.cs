@@ -10,7 +10,7 @@ namespace ConsoleApp11
     {
         static void Main(string[] args)
         {
-            List<string> favoriteFoods = new List { "ラーメン", "ローストビーフ", "寿司" };
+            List<string> favoriteFoods = new List<string> { "ラーメン", "ローストビーフ", "寿司" };
             for (int i = 0; i < favoriteFoods.Count; i++)
             {
                 Console.WriteLine(favoriteFoods[i]);

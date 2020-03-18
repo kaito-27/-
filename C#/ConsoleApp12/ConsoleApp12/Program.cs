@@ -11,7 +11,7 @@ namespace ConsoleApp12
         static void Main(string[] args)
         {
             var favoriteFoods = new List<string> {"ラーメン", "ローストビーフ", "寿司"};
-            for (int i = 0; i < favoriteFoods.Length; i++)
+            for (int i = 0; i < favoriteFoods.Count; i++)
             {
                 Console.WriteLine(favoriteFoods[i]);
             }

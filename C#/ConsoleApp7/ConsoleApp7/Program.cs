@@ -10,7 +10,7 @@ namespace ConsoleApp7
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(GetTemperature(26.0, -1.0));
+            Console.WriteLine(GetTemperature(26.0, 10.5));
         }
 
         static string GetTemperature(double high, double low)
