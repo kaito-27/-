@@ -1,0 +1,8 @@
+INSERT INTO sales
+VALUES (600, 15, "2020-03-18", "2020-03-22")
+
+INSERT INTO sales_details
+VALUES (2001, 600, 57, 10, 2655)
+
+INSERT INTO sales_details
+VALUES (2002, 600, 131, 5, 1085)
