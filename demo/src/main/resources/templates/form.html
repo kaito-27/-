@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form th:method="get">
+	<input type="text" name="text1">
+	<input type="submit"> 
+</form>
+<form th:method="post">
+	<input type="text" name="text2" th:value="${postValue}">
+	<input type="submit">
+</form>
+<form th:method="post" action="transition">
+	<input type="text" name="text3">
+	<input type="submit">
+</form>
+</body>
+</html>
